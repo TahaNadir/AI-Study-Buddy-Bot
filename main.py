@@ -21,7 +21,6 @@ responses = {
     "who are you?": "I am smart AI Chatbot",
     "motivate me": "Keep going, every bug of your project makes you better developer!",
     "happy": "Glad to hear that",
-    "functions kiya hote hain?": "Jakar chapter 7 parho"
 }
 
 # Function to get response of chatbot
@@ -40,4 +39,5 @@ while True:
         print("Bot response: Goodbye! Have a nice day.")
         break
     reply = getResponseBot(userInput)
+
     print("Bot response:", reply)
